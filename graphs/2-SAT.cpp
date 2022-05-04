@@ -78,22 +78,8 @@ void addOr(int a, int b)
     addEdge(Not(b), a);
 }
 
-bool rooms_states[M];
-
 int main(int argc, char const *argv[])
 {
-    int rooms, switches, c;
-    cin >> rooms >> switches;
-    n = switches * 2;
-    init();
-    vector<int> v;
-    // m *= 2;
-    REP(i, 0, n)
-    cin >> rooms_states[i];
-
-    REP(i, 0, switches)
-    {
-        }
 
     return 0;
 }
